@@ -102,57 +102,67 @@ body {
   list-style-type: none;
 }
 
+@media (min-width: 1000px){
+  
+  #selfie{
+    width: 400px;
+    height: auto;
+    border-radius: 20px 20px;
+  }
+}
+
 @media (min-width: 600px){
   
-#selfie{
-  width: 200px;
-  height: auto;
-  border-radius: 20px 20px;
-}
+  #selfie{
+    width: 200px;
+    height: auto;
+    border-radius: 20px 20px;
+  }
 
-#genInfo{
-  float: left;
-  box-sizing: border-box;
-  background-color: black;
-  padding: 15px;
-  border: 5px solid white;
-  width: 40%;
-  height: auto;
-  margin-right: 5%;
-  margin: 0 5%;
-}
+  #genInfo{
+    float: left;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 15px;
+    border: 5px solid white;
+    width: 40%;
+    height: auto;
+    margin-right: 5%;
+    margin: 0 5%;
+ }
 
-#credInfo{
-  float: left;
-  box-sizing: border-box;
-  background-color: black;
-  padding: 15px;
-  border: 5px solid white;
-  width: 40%;
-  height: auto;
-  margin: 0 5%;
-}
+  #credInfo{
+    float: left;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 15px;
+    border: 5px solid white;
+    width: 40%;
+    height: auto;
+    margin: 0 5%;
+  }
 
-#awardA{
-  width: 95%;
-  height: auto;
-  object-fit: contain;
-}
+  #awardA{
+    width: 95%;
+    height: auto;
+    object-fit: contain;
+  }
 
-#awardB{
-  width: 95%;
-  height: auto;
-  object-fit: contain;
-}
+  #awardB{
+    width: 95%;
+    height: auto;
+    object-fit: contain;
+ } 
 
-#awardC{
-  width: 95%;
-  height: auto;
-  object-fit: contain;
-}
+  #awardC{
+    width: 95%;
+    height: auto;
+    object-fit: contain;
+  }
 
-#credInfo ul{
-  list-style-type: none;
+  #credInfo ul{
+    list-style-type: none;
+  }
 }
 
 
@@ -386,7 +396,64 @@ td, th {
 }
 
 #map{
-  width: 100%;
+  width: 80%;
   height: 400px;
+  background-color: white;
+  margin: auto;
 }
+#navbarM {
+  background-image: linear-gradient(black, white);
+  overflow: hidden;
+}
+
+#navbarM-insert {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#navbarM ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#navbarM ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#navbarM ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbarM ul li a:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+#bodyM {
+  color: black;
+  font-family: cochin;
+  background-color: white;
+  text-align: center;
+}
+
+#elev{
+  font-size: 40px;
+  float: left;
+  margin: 0 10%;
+}
+
+#footerME{
+  clear: left;
+  background-image: linear-gradient(white, black);
+  padding: 10px;
 }
